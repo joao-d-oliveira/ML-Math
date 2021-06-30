@@ -22,8 +22,8 @@ sigma = 0.3;
 %  Note: You can compute the prediction error using 
 %        mean(double(predictions ~= yval))
 %
-possVals = [0.01 0.02 0.04 0.08 0.1 0.2 0.4 0.8 1 2 3 4 8 10 20];
-minError = 1;
+possVals = [0.01 0.02 0.03 0.04 0.08 0.1 0.2 0.3 0.4 0.8 1 2 3 4 8 10 20 30];
+minError = 10000;
 for c = possVals
     for sig = possVals
 
