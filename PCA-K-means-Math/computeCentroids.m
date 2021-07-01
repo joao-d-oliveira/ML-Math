@@ -31,7 +31,6 @@ for i = 1:K
       centroids(i,:) = mean(X(idx_i,:)); % calculating mean using built-in function
 end
 
-
 % =============================================================
 
 
